@@ -1,4 +1,4 @@
-# Codebasics FAQ: Chatbot for an online learning platform built with LangChain and Google's Vertex AI Model (text-bison-001)
+# FAQ Chatbot for an online learning platform - built with LangChain and Google's Vertex AI Model (text-bison-001)
 
 This is a prototype FAQ Chatbot that answers customers' questions for an online learning platform named Codebasics. 
 
