@@ -1,6 +1,8 @@
-# FAQ Chatbot for an Online Learning Platform - Built With LangChain and Google's Vertex AI Model (text-bison-001)
+# A Retrieval-Augmented Generation (RAG)-based FAQ Chatbot for an Online Learning Platform
 
-This is a prototype FAQ Chatbot that answers customers' questions for an online learning platform named Codebasics. 
+The prototype FAQ chatbot is built with LangChain and Google's PaLM (text-bison-001).
+
+It answers customers' questions for an online learning platform named Codebasics. 
 
 The LLM is provided with the FAQ dataset, containing frequently asked questions and answers.
 
