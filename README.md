@@ -15,19 +15,29 @@ For a given customer's question, if:
 
 ![Screen Shot 2024-06-11 at 17 24 53 PM](https://github.com/chihyi-lin/QA-Chatbot/assets/70022680/7785b126-2abc-426f-9ee5-852e5b2ca0f5)
 
-## Installation
+## Run with Docker
+Create a `.env` file with the following variables:
+- GOOGLE_API_KEY
+- LANGCHAIN_API_KEY
+### Run the container
 ```
-pip install -r requirements.txt
-```
-
-## Usage
-Run the user interface by executing:
-```
-streamlit run main.py
+docker-compose up --build
 ```
 The Web app will open  in your browser.
 
 You can add database by clicking the "Create Knolwedge Base" button.
+
+## Run without Docker
+### Installation
+```
+pip install -r requirements.txt
+```
+
+### Usage
+Run the user interface by executing:
+```
+streamlit run main.py
+```
 
 ## Sample Questions
 - Do you guys provide internship and also do you offer EMI payments?
